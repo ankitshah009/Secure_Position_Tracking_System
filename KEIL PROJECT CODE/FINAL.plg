@@ -1,0 +1,30 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\PALI\Desktop\ES project\SECURE POSITION TRACKING SYSTEM\Secure Position Tracking System\gsm.uvproj
+Project File Date:  11/23/2013
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+assembling Startup.s...
+compiling clcd.c...
+clcd.c(152): warning:  #186-D: pointless comparison of unsigned integer with zero
+compiling uart.c...
+compiling main.c...
+main.c(22): warning:  #1295-D: Deprecated declaration reset - give arg types
+main.c(267): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+main.c(277): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *restrict"
+main.c(278): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+main.c(283): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+main.c(327): warning:  #117-D: non-void function "GsmReadMsg" should return a value
+main.c(333): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(377): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(389): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(390): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(293): warning:  #177-D: variable "counter0a" was declared but never referenced
+linking...
+Program Size: Code=7876 RO-data=120 RW-data=220 ZI-data=1940  
+FromELF: creating hex file...
+".\FINAL.axf" - 0 Errors, 12 Warning(s).

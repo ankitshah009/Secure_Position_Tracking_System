@@ -1,0 +1,19 @@
+Dependencies for Project 'gsm', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x4C816644)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\clcd.c)(0x52911FE8)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\clcd.o --omf_browse .\clcd.crf --depend .\clcd.d)
+I (C:\Users\PALI\Desktop\ES project\SECURE POSITION TRACKING SYSTEM\Secure Position Tracking System\clcd.h)(0x5291218E)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C851F4)
+I (C:\Users\PALI\Desktop\ES project\SECURE POSITION TRACKING SYSTEM\Secure Position Tracking System\config.h)(0x52912174)
+I (C:\Keil\ARM\Inc\Philips\LPC214x.h)(0x51C853EC)
+I (C:\Users\PALI\Desktop\ES project\SECURE POSITION TRACKING SYSTEM\Secure Position Tracking System\uart.h)(0x52912225)
+F (.\uart.c)(0x52912230)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\uart.o --omf_browse .\uart.crf --depend .\uart.d)
+I (C:\Users\PALI\Desktop\ES project\SECURE POSITION TRACKING SYSTEM\Secure Position Tracking System\config.h)(0x52912174)
+I (C:\Keil\ARM\Inc\Philips\LPC214x.h)(0x51C853EC)
+I (C:\Users\PALI\Desktop\ES project\SECURE POSITION TRACKING SYSTEM\Secure Position Tracking System\uart.h)(0x52912225)
+I (C:\Users\PALI\Desktop\ES project\SECURE POSITION TRACKING SYSTEM\Secure Position Tracking System\clcd.h)(0x5291218E)
+F (.\main.c)(0x5291202D)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (C:\Users\PALI\Desktop\ES project\SECURE POSITION TRACKING SYSTEM\Secure Position Tracking System\config.h)(0x52912174)
+I (C:\Keil\ARM\Inc\Philips\LPC214x.h)(0x51C853EC)
+I (C:\Users\PALI\Desktop\ES project\SECURE POSITION TRACKING SYSTEM\Secure Position Tracking System\uart.h)(0x52912225)
+I (C:\Users\PALI\Desktop\ES project\SECURE POSITION TRACKING SYSTEM\Secure Position Tracking System\clcd.h)(0x5291218E)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C851F4)
